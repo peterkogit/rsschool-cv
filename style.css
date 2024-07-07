@@ -13,17 +13,25 @@ nav {
 	padding: 10px 0;
 	text-align: center;
 	z-index: 1000;
-}
-nav a {
-	color: white;
-	margin: 0 15px;
-	text-decoration: none;
-}
-nav a:hover {
-	text-decoration: underline;
+
+	ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+	}
+
+	a {
+		color: white;
+		margin: 0 15px;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 .content {
-	margin: 38px auto 20px auto;
+	margin: 70px auto 20px auto;
 	padding: 20px;
 	width: 920px;
 	background-color: white;
